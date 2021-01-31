@@ -82,7 +82,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4053f9935a277f52f936b.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/b80ab878b331bc96965a3.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Queer ♕︎ is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
