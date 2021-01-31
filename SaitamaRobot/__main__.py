@@ -64,10 +64,11 @@ Maintained by [Chankit Saini](t.me/ChankitSaini)
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm Queer ♕︎ & I help admins to manage their groups! Have a look at the following for an idea of some of \
+
+I'm *Queer ♕︎* & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
-*Main* commands available:
+*Main commands available:* 👇
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /donate: information on how to donate!
@@ -78,6 +79,7 @@ the things I can help you with.
 
 {}
 And the following:
+
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
@@ -86,7 +88,7 @@ SAITAMA_IMG = "https://telegra.ph/file/b80ab878b331bc96965a3.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Queer ♕︎ is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
-You can donate to improve our hosting services
+you can donate to improve our hosting services
 Here's the way of supporting us; [PayPal](paypal.me/ChankitSani)."""
 
 IMPORTED = {}
