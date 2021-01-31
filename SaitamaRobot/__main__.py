@@ -52,9 +52,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}
-My name is {}! 
+
+My name is {}!
+
 A Powerful Telegram Probot with a lot of Special Features !!
+
 You can find my list of available commands with /help.
+
 Maintained by [Chankit Saini](t.me/ChankitSaini)
 """
 
