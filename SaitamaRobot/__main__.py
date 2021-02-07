@@ -223,8 +223,8 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" Get Started ",
-                             url="https://t.me/QueerAIBotSupport/86")
+                             text=" Updates ",
+                             url="https://t.me/QueerAIBotUpdates")
                     
                     ]]))
     else:
