@@ -68,14 +68,14 @@ Hey there! My name is *{}*.
 I'm *Queer ♕︎* & I help admins to manage their groups! \
 
 
-*Main commands available:* 👇 [:.:](https://telegra.ph/file/9202dd9c6ee0a93ba67ed.jpg)
+*Main commands available:* 👇
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /donate: information on how to donate!
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
-
+https://telegra.ph/file/9202dd9c6ee0a93ba67ed.jpg
 
 {}
 And the following:
