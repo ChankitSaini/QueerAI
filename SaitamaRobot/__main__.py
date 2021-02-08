@@ -65,10 +65,10 @@ Maintained by [Chankit Saini](t.me/ChankitSaini)
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 
-I'm *Queer ♕︎* & I help admins to manage their groups! Have a look at the following for an idea of some of \
-the things I can help you with.
+I'm *Queer ♕︎* & I help admins to manage their groups! \
 
-*Main commands available:* 👇
+
+*Main commands available:* 👇 [:.:](https://telegra.ph/file/9202dd9c6ee0a93ba67ed.jpg)
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /donate: information on how to donate!
