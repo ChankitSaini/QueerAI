@@ -63,12 +63,12 @@ def ban(update: Update, context: CallbackContext) -> str:
             return log_message
         elif user_id in DEMONS:
             message.reply_text(
-                "Bring an order from Heroes association to fight a Demon disaster."
+                "Bring an order from Neurotic Association to fight a Demon disaster."
             )
             return log_message
         elif user_id in TIGERS:
             message.reply_text(
-                "Bring an order from Heroes association to fight a Tiger disaster."
+                "Bring an order from Neurotic Association to fight a Tiger disaster."
             )
             return log_message
         elif user_id in WOLVES:
@@ -142,7 +142,7 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
             raise
 
     if user_id == bot.id:
-        message.reply_text("I'm not gonna BAN myself, are you crazy?")
+        message.reply_text("I'm not gonna BAN myself, are you crazy? Noob Nibba")
         return log_message
 
     if is_user_ban_protected(chat, user_id, member):
