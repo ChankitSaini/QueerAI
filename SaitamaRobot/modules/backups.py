@@ -64,7 +64,7 @@ def import_data(update, context):
         # only import one group
         if len(data) > 1 and str(chat.id) not in data:
             msg.reply_text(
-                "There are more than one group in this file and the chat.id is not same! How am i supposed to import it?"
+                "There are more than one group in this file and the chat.id is not same! How am I supposed to import it?"
             )
             return
 
@@ -99,7 +99,7 @@ def import_data(update, context):
                 mod.__import_data__(str(chat.id), data)
         except Exception:
             msg.reply_text(
-                "An error occurred while recovering your data. The process failed. If you experience a problem with this, please take it to @OnePunchSupport"
+                "An error occurred while recovering your data. The process failed. If you experience a problem with this, please take it to @NeuroticAssociation"
             )
 
             LOGGER.exception(
@@ -335,7 +335,7 @@ def export_data(update, context):
     context.bot.sendDocument(
         current_chat_id,
         document=open("SenkuRobot{}.backup".format(chat_id), "rb"),
-        caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `SenkuRobot-Backup` was specially made for notes."
+        caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `QueerAIBot-Backup` was specially made for notes."
         .format(chat.title, chat_id, tgl),
         timeout=360,
         reply_to_message_id=msg.message_id,
