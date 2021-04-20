@@ -59,7 +59,7 @@ A Powerful Telegram Probot with a lot of Special Features !!
 
 You can find my list of available commands with /help.
 
-Maintained by [Chankit Saini](t.me/ChankitSaini)
+Maintained by[Neurotic Association](t.me/NeuroticAssociation)
 """
 
 HELP_STRINGS = """
